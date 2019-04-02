@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="FamilyMember" representedClassName="FamilyMember" syncable="YES" codeGenerationType="class">
-        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
-    <entity name="SleepRecord" representedClassName="SleepRecord" syncable="YES" codeGenerationType="class">
-        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
-        <attribute name="hours" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="familyMember" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FamilyMember" syncable="YES"/>
-    </entity>
-    <elements>
-        <element name="FamilyMember" positionX="-36" positionY="9" width="128" height="75"/>
-        <element name="SleepRecord" positionX="0" positionY="63" width="128" height="90"/>
-    </elements>
+    <elements/>
 </model>
