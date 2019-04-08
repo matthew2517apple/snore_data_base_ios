@@ -19,7 +19,6 @@ class SleepRecordViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         navigationItem.title = "Sleep Records"
-        // TODO set this to add or edit, as appropriate
     }
     
     

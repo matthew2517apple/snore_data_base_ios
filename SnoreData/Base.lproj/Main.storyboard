@@ -22,8 +22,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNV-e7-Nfd">
-                                    <rect key="frame" x="147" y="6" width="81" height="30"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNV-e7-Nfd">
+                                    <rect key="frame" x="147" y="0.0" width="81" height="44"/>
                                     <state key="normal" title="Add Record"/>
                                     <connections>
                                         <segue destination="ve7-YG-XLi" kind="show" identifier="addSleepRecord" id="iMb-bB-rjh"/>
@@ -32,6 +32,8 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
+                                <constraint firstAttribute="bottom" secondItem="YNV-e7-Nfd" secondAttribute="bottom" id="Ah6-j6-8py"/>
+                                <constraint firstItem="YNV-e7-Nfd" firstAttribute="top" secondItem="6jZ-Id-Vae" secondAttribute="top" id="ECc-LR-Q4e"/>
                                 <constraint firstItem="YNV-e7-Nfd" firstAttribute="centerX" secondItem="6jZ-Id-Vae" secondAttribute="centerX" id="ZLR-Wt-XK6"/>
                             </constraints>
                         </view>
@@ -112,7 +114,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="YN0-Qj-q6K" kind="show" identifier="showFamilyMemberSleepRecords" id="ARM-Pv-SLu"/>
-                                    <segue destination="hiz-gl-AKx" kind="show" trigger="accessoryAction" id="QPI-1v-Bqc"/>
+                                    <segue destination="hiz-gl-AKx" kind="show" identifier="editFamilyMember" trigger="accessoryAction" id="QPI-1v-Bqc"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
