@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E7911C6C22539D6200891426"
                BuildableName = "SnoreData.app"
                BlueprintName = "SnoreData"
-               ReferencedContainer = "container:SnoreData.xcodeproj">
+               ReferencedContainer = "container:SnoreData BASE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "E7911C8322539D6C00891426"
                BuildableName = "SnoreDataTests.xctest"
                BlueprintName = "SnoreDataTests"
-               ReferencedContainer = "container:SnoreData.xcodeproj">
+               ReferencedContainer = "container:SnoreData BASE.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "E7911C8E22539D6C00891426"
                BuildableName = "SnoreDataUITests.xctest"
                BlueprintName = "SnoreDataUITests"
-               ReferencedContainer = "container:SnoreData.xcodeproj">
+               ReferencedContainer = "container:SnoreData BASE.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "E7911C6C22539D6200891426"
             BuildableName = "SnoreData.app"
             BlueprintName = "SnoreData"
-            ReferencedContainer = "container:SnoreData.xcodeproj">
+            ReferencedContainer = "container:SnoreData BASE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "E7911C6C22539D6200891426"
             BuildableName = "SnoreData.app"
             BlueprintName = "SnoreData"
-            ReferencedContainer = "container:SnoreData.xcodeproj">
+            ReferencedContainer = "container:SnoreData BASE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "E7911C6C22539D6200891426"
             BuildableName = "SnoreData.app"
             BlueprintName = "SnoreData"
-            ReferencedContainer = "container:SnoreData.xcodeproj">
+            ReferencedContainer = "container:SnoreData BASE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

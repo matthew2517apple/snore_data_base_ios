@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E742B336225BF8800060E572 /* SnoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E742B334225BF8800060E572 /* SnoreData.xcdatamodeld */; };
 		E7911C7122539D6200891426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911C7022539D6200891426 /* AppDelegate.swift */; };
 		E7911C7322539D6200891426 /* FamilyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911C7222539D6200891426 /* FamilyTableViewController.swift */; };
 		E7911C7622539D6200891426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7911C7422539D6200891426 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E742B335225BF8800060E572 /* SnoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnoreData.xcdatamodel; sourceTree = "<group>"; };
 		E7911C6D22539D6200891426 /* SnoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7911C7022539D6200891426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7911C7222539D6200891426 /* FamilyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E742B33A225BF89E0060E572 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E742B334225BF8800060E572 /* SnoreData.xcdatamodeld */,
+			);
+			name = Models;
+			path = ../Models;
+			sourceTree = "<group>";
+		};
 		E7911C6422539D6200891426 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +114,7 @@
 		E7911C6F22539D6200891426 /* SnoreData */ = {
 			isa = PBXGroup;
 			children = (
+				E742B33A225BF89E0060E572 /* Models */,
 				E7911CA12253A05800891426 /* ViewControllers */,
 				E7911C7022539D6200891426 /* AppDelegate.swift */,
 				E7911C7422539D6200891426 /* Main.storyboard */,
@@ -221,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E7911C6822539D6200891426 /* Build configuration list for PBXProject "SnoreData" */;
+			buildConfigurationList = E7911C6822539D6200891426 /* Build configuration list for PBXProject "SnoreData BASE" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -278,6 +290,7 @@
 				E7911C7322539D6200891426 /* FamilyTableViewController.swift in Sources */,
 				E7911C7122539D6200891426 /* AppDelegate.swift in Sources */,
 				E7911CA62253A0E900891426 /* SleepRecordTableViewController.swift in Sources */,
+				E742B336225BF8800060E572 /* SnoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E7911C6822539D6200891426 /* Build configuration list for PBXProject "SnoreData" */ = {
+		E7911C6822539D6200891426 /* Build configuration list for PBXProject "SnoreData BASE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7911C9622539D6C00891426 /* Debug */,
@@ -600,6 +613,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E742B334225BF8800060E572 /* SnoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E742B335225BF8800060E572 /* SnoreData.xcdatamodel */,
+			);
+			currentVersion = E742B335225BF8800060E572 /* SnoreData.xcdatamodel */;
+			path = SnoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E7911C6522539D6200891426 /* Project object */;
 }
