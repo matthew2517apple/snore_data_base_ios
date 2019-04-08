@@ -10,7 +10,6 @@
 		E7911C7122539D6200891426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911C7022539D6200891426 /* AppDelegate.swift */; };
 		E7911C7322539D6200891426 /* FamilyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911C7222539D6200891426 /* FamilyTableViewController.swift */; };
 		E7911C7622539D6200891426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7911C7422539D6200891426 /* Main.storyboard */; };
-		E7911C7922539D6200891426 /* SnoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7911C7722539D6200891426 /* SnoreData.xcdatamodeld */; };
 		E7911C7B22539D6B00891426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7911C7A22539D6B00891426 /* Assets.xcassets */; };
 		E7911C7E22539D6B00891426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7911C7C22539D6B00891426 /* LaunchScreen.storyboard */; };
 		E7911C8922539D6C00891426 /* SnoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911C8822539D6C00891426 /* SnoreDataTests.swift */; };
@@ -42,7 +41,6 @@
 		E7911C7022539D6200891426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7911C7222539D6200891426 /* FamilyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewController.swift; sourceTree = "<group>"; };
 		E7911C7522539D6200891426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7911C7822539D6200891426 /* SnoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnoreData.xcdatamodel; sourceTree = "<group>"; };
 		E7911C7A22539D6B00891426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7911C7D22539D6B00891426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7911C7F22539D6B00891426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		E7911C6F22539D6200891426 /* SnoreData */ = {
 			isa = PBXGroup;
 			children = (
-				E7911CA22253A07300891426 /* Models */,
 				E7911CA12253A05800891426 /* ViewControllers */,
 				E7911C7022539D6200891426 /* AppDelegate.swift */,
 				E7911C7422539D6200891426 /* Main.storyboard */,
@@ -143,14 +140,6 @@
 				E7911CA52253A0E900891426 /* SleepRecordTableViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E7911CA22253A07300891426 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E7911C7722539D6200891426 /* SnoreData.xcdatamodeld */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +277,6 @@
 				E7911CA82253BB6600891426 /* AddSleepRecordViewController.swift in Sources */,
 				E7911C7322539D6200891426 /* FamilyTableViewController.swift in Sources */,
 				E7911C7122539D6200891426 /* AppDelegate.swift in Sources */,
-				E7911C7922539D6200891426 /* SnoreData.xcdatamodeld in Sources */,
 				E7911CA62253A0E900891426 /* SleepRecordTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,19 +600,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E7911C7722539D6200891426 /* SnoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E7911C7822539D6200891426 /* SnoreData.xcdatamodel */,
-			);
-			currentVersion = E7911C7822539D6200891426 /* SnoreData.xcdatamodel */;
-			path = SnoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E7911C6522539D6200891426 /* Project object */;
 }
