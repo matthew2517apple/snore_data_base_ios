@@ -18,6 +18,10 @@
 		E7911CA42253A0D900891426 /* AddEditFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911CA32253A0D900891426 /* AddEditFamilyViewController.swift */; };
 		E7911CA62253A0E900891426 /* SleepRecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911CA52253A0E900891426 /* SleepRecordTableViewController.swift */; };
 		E7911CA82253BB6600891426 /* AddSleepRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7911CA72253BB6600891426 /* AddSleepRecordViewController.swift */; };
+		F3005CEB2266B8AD00DCE6E7 /* SleepRecordDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3005CEA2266B8AD00DCE6E7 /* SleepRecordDelegate.swift */; };
+		F3005CED2266B91900DCE6E7 /* SleepRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3005CEC2266B91900DCE6E7 /* SleepRecordViewController.swift */; };
+		F3EDDDC92266A7F300DF06DC /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDDC82266A7F300DF06DC /* AlertViewController.swift */; };
+		F3EDDDCB2266A98F00DF06DC /* FamilyMemberDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EDDDCA2266A98F00DF06DC /* FamilyMemberDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		E7911CA32253A0D900891426 /* AddEditFamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditFamilyViewController.swift; sourceTree = "<group>"; };
 		E7911CA52253A0E900891426 /* SleepRecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecordTableViewController.swift; sourceTree = "<group>"; };
 		E7911CA72253BB6600891426 /* AddSleepRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSleepRecordViewController.swift; sourceTree = "<group>"; };
+		F3005CEA2266B8AD00DCE6E7 /* SleepRecordDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecordDelegate.swift; sourceTree = "<group>"; };
+		F3005CEC2266B91900DCE6E7 /* SleepRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepRecordViewController.swift; sourceTree = "<group>"; };
+		F3EDDDC82266A7F300DF06DC /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		F3EDDDCA2266A98F00DF06DC /* FamilyMemberDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMemberDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +155,13 @@
 			isa = PBXGroup;
 			children = (
 				E7911C7222539D6200891426 /* FamilyTableViewController.swift */,
+				F3005CEA2266B8AD00DCE6E7 /* SleepRecordDelegate.swift */,
 				E7911CA32253A0D900891426 /* AddEditFamilyViewController.swift */,
+				F3EDDDCA2266A98F00DF06DC /* FamilyMemberDelegate.swift */,
+				F3EDDDC82266A7F300DF06DC /* AlertViewController.swift */,
 				E7911CA72253BB6600891426 /* AddSleepRecordViewController.swift */,
 				E7911CA52253A0E900891426 /* SleepRecordTableViewController.swift */,
+				F3005CEC2266B91900DCE6E7 /* SleepRecordViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -286,9 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7911CA42253A0D900891426 /* AddEditFamilyViewController.swift in Sources */,
+				F3EDDDC92266A7F300DF06DC /* AlertViewController.swift in Sources */,
+				F3EDDDCB2266A98F00DF06DC /* FamilyMemberDelegate.swift in Sources */,
+				F3005CEB2266B8AD00DCE6E7 /* SleepRecordDelegate.swift in Sources */,
 				E7911CA82253BB6600891426 /* AddSleepRecordViewController.swift in Sources */,
 				E7911C7322539D6200891426 /* FamilyTableViewController.swift in Sources */,
 				E7911C7122539D6200891426 /* AppDelegate.swift in Sources */,
+				F3005CED2266B91900DCE6E7 /* SleepRecordViewController.swift in Sources */,
 				E7911CA62253A0E900891426 /* SleepRecordTableViewController.swift in Sources */,
 				E742B336225BF8800060E572 /* SnoreData.xcdatamodeld in Sources */,
 			);
@@ -467,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clara.SnoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,6 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clara.SnoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +520,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreDataTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +541,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreDataTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,6 +561,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreDataUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,6 +581,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SnoreDataUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

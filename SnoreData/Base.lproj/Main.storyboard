@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8qK-xz-6CL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8qK-xz-6CL">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -185,8 +184,24 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkI-tN-eWR">
                                         <rect key="frame" x="170.5" y="212" width="34" height="391"/>
                                         <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="save:" destination="hiz-gl-AKx" eventType="touchUpInside" id="VTQ-xm-ZOQ"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tg4-Bw-qnT">
+                                        <rect key="frame" x="112.5" y="603" width="150" height="0.0"/>
+                                        <state key="normal" title="Delete family member">
+                                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="deleteFamilyMember:" destination="hiz-gl-AKx" eventType="touchUpInside" id="XRa-gO-gJi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="tg4-Bw-qnT" secondAttribute="bottom" id="fd0-uA-etN"/>
+                                    <constraint firstItem="tg4-Bw-qnT" firstAttribute="centerX" secondItem="C4c-FC-W5u" secondAttribute="centerX" id="kAz-Jg-xTi"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -198,6 +213,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YUm-mN-v4J"/>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="wHO-QW-gxW" id="LPD-c2-ECD"/>
+                        <outlet property="deleteButton" destination="tg4-Bw-qnT" id="tSE-74-2qO"/>
+                        <outlet property="nameTextField" destination="6KN-pR-JBl" id="Ibh-rc-eMb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Fq-PU-bmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -252,6 +272,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4Lo-PO-suF"/>
+        <segue reference="QPI-1v-Bqc"/>
     </inferredMetricsTieBreakers>
 </document>

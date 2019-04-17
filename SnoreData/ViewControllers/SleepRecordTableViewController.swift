@@ -8,8 +8,11 @@
 
 
 import UIKit
+import CoreData
 
 class SleepRecordViewController: UITableViewController {
+    
+    var managedContext: NSManagedObjectContext?
     
     override func viewDidLoad() {
         super.viewDidLoad()
